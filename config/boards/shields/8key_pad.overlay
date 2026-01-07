@@ -1,0 +1,22 @@
+/ {
+    compatible = "zmk,keyboard";
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        matrix {
+            rows = <8>;
+            cols = <1>;  // Single column if you wire as 8 separate buttons
+            row-gpios = <
+                &gpio0 2 GPIO_PULL_UP
+                &gpio0 3 GPIO_PULL_UP
+                &gpio0 4 GPIO_PULL_UP
+                &gpio0 5 GPIO_PULL_UP
+                &gpio0 6 GPIO_PULL_UP
+                &gpio0 7 GPIO_PULL_UP
+                &gpio0 8 GPIO_PULL_UP
+                &gpio0 9 GPIO_PULL_UP
+            >;
+        };
+    };
+};
