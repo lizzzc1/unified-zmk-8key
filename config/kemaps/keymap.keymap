@@ -1,0 +1,21 @@
+bindings:
+  - &kp1 KC_A
+  - &kp2 KC_B
+  - &kp3 KC_C
+  - &kp4 KC_D
+  - &kp5 KC_E
+  - &kp6 KC_F
+  - &kp7 KC_G
+  - &kp8 KC_H
+
+layers:
+  - name: default
+    bindings:
+      - &kp1
+      - &kp2
+      - &kp3
+      - &kp4
+      - &kp5
+      - &kp6
+      - &kp7
+      - &kp8
